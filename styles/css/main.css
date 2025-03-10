@@ -79,6 +79,32 @@ header .header-content .navigation .naviation-item a:hover {
   letter-spacing: 0%;
   text-align: left;
 }
+.banner .banner-content .banner-btns {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+.banner .banner-content .banner-btns .btn__blue {
+  margin-right: 30px;
+}
+
+footer {
+  background-color: #3D4050;
+}
+footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0;
+}
+footer .footer-content .payments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 html {
   -webkit-box-sizing: border-box;
