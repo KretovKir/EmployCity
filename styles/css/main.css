@@ -50,6 +50,8 @@ header .header-content .navigation .naviation-item a:hover {
 .banner {
   width: 100%;
   background-image: url("/img/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .banner .banner-content {
   max-width: 48.75rem;
