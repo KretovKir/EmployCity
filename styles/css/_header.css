@@ -2,6 +2,7 @@ header {
   background-color: rgba(16, 16, 29, 0.9);
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 header .header-content {
   display: -webkit-box;
@@ -32,13 +33,13 @@ header .header-content .navigation {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 33px;
+  padding: 2.0625rem;
 }
 header .header-content .navigation .naviation-item a {
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 header .header-content .navigation .naviation-item a:hover {
   color: rgb(67, 171, 240);

@@ -2,6 +2,7 @@ header{
     background-color: rgba(16, 16, 29, 0.90);
     position: sticky;
     top: 0;
+    z-index: 1;
 
     .header-content{
         display: flex;
@@ -16,13 +17,13 @@ header{
             display: flex;
             flex: 0 1 30%;
             justify-content: space-between;
-            padding: 33px;
+            padding: 2.0625rem;
             .naviation-item{
                 a{
                     color: #FFFFFF;
                     text-transform: uppercase;
                     font-weight: 600;
-                    font-size: 13px;
+                    font-size: .8125rem;
                     &:hover{
                         color: rgb(67, 171, 240);
                         transition: color .3s

@@ -8,8 +8,10 @@ html{
 }
 body{
     font-family: 'Raleway';
+    font-size: 16px;
     padding: 0;
     margin: 0;
+    
 }
 
 ul{
@@ -25,9 +27,14 @@ a{
 
 .container{
     width: 100%;
-    max-width: 1170px;
+    max-width: 73.125rem;
     margin-left: auto;
     margin-right: auto;
+
+    @media(max-width: 1170px){
+        width: 95%;
+        max-width: 1024px
+    }
 }
 
 .txt-blue{
@@ -35,17 +42,17 @@ a{
 }
 
 .btn{
-    border-radius: 4px;
-    padding: 15px 10px;
+    border-radius: .25rem;
+    padding: .9375rem .625rem;
     font-family: 'Raleway';
-    font-size: 13px;
+    font-size: .8125rem;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 1rem;
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
-    padding: 15px 10px;
-    width: 183px;
+    padding: .9375rem .625rem;
+    width: 11.4375rem;
     cursor: pointer;
     transition: background-color, .2s;
 
@@ -63,10 +70,10 @@ a{
 
 .btn__white{
     background-color: #fff;
-    border: 1px solid #6F6D7B;
+    border: .0625rem solid #6F6D7B;
     color: #2A2B30;
     &:hover{
-        border: 1px solid transparent;
+        border: .0625rem solid transparent;
         background-color: #4b7891;
         color: #fff;
         transition: background-color, color, .2s;

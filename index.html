@@ -97,9 +97,52 @@
                     </span>
                 </div>
 
-                <!-- <div class="forms-cheme">
+                <ul class="order-cheme">
+                    <li>
+                        <div class="order-card">
+                            <div class="order-card-circle">
+                                <img src="img/search.png" alt="Search">
+                            </div>
+                            <span>Lorem ipsum dolorsit amet</span>
+                        </div>
+                    </li>
 
-                </div> -->
+                    <li>
+                        <div class="order-card">
+                            <div class="order-card-circle">
+                                <img src="img/percent.png" alt="Percent">
+                            </div>
+                            <span>Сonsecteturadipiscing elit</span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="order-card">
+                            <div class="order-card-circle">
+                                <img src="img/file-light.png" alt="File">
+                            </div>
+                            <span>Sed do eiusmod tempor</span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="order-card">
+                            <div class="order-card-circle">
+                                <img src="img/email.png" alt="Email">
+                            </div>
+                            <span>Esse cillum doloreeu fugiat</span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="order-card order-card__empty">
+                            <div class="order-card-circle">
+                                <img src="img/cash.png" alt="Cash">
+                            </div>
+                            <span>Excepteur sint occaecat cupidatat non proident</span>
+                        </div>
+                    </li>
+                </ul>
                 <form class="order-form">
                     <select>
                         <option value="default">
@@ -128,13 +171,20 @@
                             <span>Sed ut perspiciatis, unde omnis iste natus</span>
                             <span id="counter">50%</span>
                         </div>
-                        <input type="range" id="rangeElem" name="percents" min="0" max="100" />
+                        <input type="range" id="rangeElem" name="percents" min="0" max="100" step="25" />
                     </label>
                     
                     <label for="file-input" class="input-wrapper">
-                        <span class="input__file-icon-wrapper"><img class="input__file-icon" src="/img/file.png" alt="Выбрать файл" width="25"></span>
-                        <span class="input__file-button-text">Выберите файл</span>
                         <input type="file" class='file-input' placeholder="Прикрепите файл">
+                        <label for="file-input" class="input-button">
+                            <span class="input-img">
+                                <img src="img/file.png" alt="Upload File">
+                            </span>
+                            
+                            <span>
+                                Выберите файл
+                            </span>
+                        </label>
                     </label>
 
 
