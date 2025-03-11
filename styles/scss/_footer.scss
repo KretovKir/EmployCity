@@ -56,6 +56,26 @@ footer{
                 }
             }
         }
+
+        @media(max-width: 1200px){
+            flex-direction: column;
+            .rights{
+                margin-bottom: 20px
+            }
+
+            .contacts{
+                flex-direction: column;
+                .contacts-item{
+                    margin-bottom: 10px
+                }
+            }
+
+            .payments{
+                border: none;
+                padding: 0;
+                margin-bottom: 20px
+            }
+        }
     }
    
 }

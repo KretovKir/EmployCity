@@ -3,6 +3,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+    padding: 2.0625rem;
 
     .header-content{
         display: flex;
@@ -12,13 +13,23 @@ header{
             display: flex;
             justify-content: center;
             align-items: center;
+
+            img{
+                object-fit: cover;
+                max-width: 100%;
+            }
+
+            @media(max-width: 375px){
+                max-width: 160px
+
+            }
         }
         .navigation{
             display: flex;
             flex: 0 1 30%;
             justify-content: space-between;
-            padding: 2.0625rem;
-            .naviation-item{
+            
+            .navigation-item{
                 a{
                     color: #FFFFFF;
                     text-transform: uppercase;
@@ -30,6 +41,28 @@ header{
                     }
                 }
             }
+
+            @media(max-width: 1200px){
+                display: none
+            }
         }
+    }
+
+    .burger{
+        display: none;
+        width: 20px;
+        height: 20px;
+        span{
+            height: 3px;
+            background-color: #fff;
+            border-radius: 3px
+        }
+
+        @media(max-width: 1200px){
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
     }
 }
