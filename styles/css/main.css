@@ -88,7 +88,7 @@ header .burger span {
 
 .banner {
   width: 100%;
-  background-image: url("img/banner.png");
+  background-image: url("../../img/banner.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -177,7 +177,7 @@ header .burger span {
 }
 
 .order {
-  background-image: url("img/formsBg.png");
+  background-image: url("../../img/formsBg.png");
   max-width: 100%;
 }
 .order .order-content {
@@ -226,7 +226,7 @@ header .burger span {
   position: relative;
 }
 .order .order-content .order-cheme .order-card::before {
-  content: url("img/points.png");
+  content: url("../../img/points.png");
   position: absolute;
   top: 25%;
   left: 85%;
