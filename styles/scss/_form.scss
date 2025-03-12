@@ -1,5 +1,5 @@
 .order{
-  background-image: url('/img/formsBg.png');
+  background-image: url('img/formsBg.png');
   max-width: 100%;
 
   .order-content{
@@ -40,7 +40,7 @@
             align-items: center;
             position: relative;
             &::before{
-                content: url('/img/points.png');
+                content: url('img/points.png');
                 position: absolute;
                 top: 25%;
                 left: 85%;

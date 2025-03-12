@@ -3,7 +3,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
-    padding: 2.0625rem;
+    padding: 33px;
 
     .header-content{
         display: flex;
@@ -19,8 +19,8 @@ header{
                 max-width: 100%;
             }
 
-            @media(max-width: 375px){
-                max-width: 160px
+            @media(max-width: 23.4375rem){
+                max-width: 10rem
 
             }
         }
@@ -34,7 +34,7 @@ header{
                     color: #FFFFFF;
                     text-transform: uppercase;
                     font-weight: 600;
-                    font-size: .8125rem;
+                    font-size: 13px;
                     &:hover{
                         color: rgb(67, 171, 240);
                         transition: color .3s
@@ -42,7 +42,7 @@ header{
                 }
             }
 
-            @media(max-width: 1200px){
+            @media(max-width: 75rem){
                 display: none
             }
         }
@@ -50,15 +50,15 @@ header{
 
     .burger{
         display: none;
-        width: 20px;
-        height: 20px;
+        width: 1.25rem;
+        height: 1.25rem;
         span{
-            height: 3px;
+            height: .1875rem;
             background-color: #fff;
-            border-radius: 3px
+            border-radius: .1875rem
         }
 
-        @media(max-width: 1200px){
+        @media(max-width: 75rem){
             display: flex;
             flex-direction: column;
             justify-content: space-between;

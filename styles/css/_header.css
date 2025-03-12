@@ -3,7 +3,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
-  padding: 2.0625rem;
+  padding: 33px;
 }
 header .header-content {
   display: -webkit-box;
@@ -29,9 +29,9 @@ header .header-content .header-logo img {
      object-fit: cover;
   max-width: 100%;
 }
-@media (max-width: 375px) {
+@media (max-width: 23.4375rem) {
   header .header-content .header-logo {
-    max-width: 160px;
+    max-width: 10rem;
   }
 }
 header .header-content .navigation {
@@ -49,29 +49,29 @@ header .header-content .navigation .navigation-item a {
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 0.8125rem;
+  font-size: 13px;
 }
 header .header-content .navigation .navigation-item a:hover {
   color: rgb(67, 171, 240);
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
-@media (max-width: 1200px) {
+@media (max-width: 75rem) {
   header .header-content .navigation {
     display: none;
   }
 }
 header .burger {
   display: none;
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 header .burger span {
-  height: 3px;
+  height: 0.1875rem;
   background-color: #fff;
-  border-radius: 3px;
+  border-radius: 0.1875rem;
 }
-@media (max-width: 1200px) {
+@media (max-width: 75rem) {
   header .burger {
     display: -webkit-box;
     display: -ms-flexbox;

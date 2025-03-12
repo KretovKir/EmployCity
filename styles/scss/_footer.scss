@@ -5,34 +5,34 @@ footer{
     .footer-content{
         display: flex;
         justify-content: space-between;
-        padding: 1.875rem 0;
+        padding: 30px 0;
 
         .rights{
-            font-size: .8125rem;
+            font-size: 13px;
             font-weight: 400;
-            line-height: 1rem;
+            line-height: 16px;
             color: #fff;
             
         }
 
         .payments{
             display: flex;
-            border: .0625rem solid #fff;
+            border: 1px solid #fff;
             border-top: 0;
             border-bottom: 0;
-            padding: 0 2.625rem;
+            padding: 0 42px;
             
             .payments-item{ 
                 display: flex;
                 align-items: center;
-                margin-right: 1.5625rem;
+                margin-right: 25px;
                 color: rgb(195, 195, 195);
-                font-size: .8125rem;
+                font-size: 13px;
                 font-weight: 400;
-                line-height: 1rem;
+                line-height: 16px;
                 letter-spacing: 0%;
                 img{
-                    margin-right: .625rem;
+                    margin-right: 10px;
                 }
                     
             }
@@ -44,36 +44,36 @@ footer{
             .contacts-item{ 
                 display: flex;
                 align-items: center;
-                margin-right: 1.5625rem;
+                margin-right: 25px;
                 color: rgb(195, 195, 195);
-                font-size: .8125rem;
+                font-size: 13px;
                 font-weight: 400;
-                line-height: 1rem;
+                line-height: 16px;
                 letter-spacing: 0%;
 
                 img{
-                    margin-right: .625rem;
+                    margin-right: 10px;
                 }
             }
         }
 
-        @media(max-width: 1200px){
+        @media(max-width: 75rem){
             flex-direction: column;
             .rights{
-                margin-bottom: 20px
+                margin-bottom: 1.25rem
             }
 
             .contacts{
                 flex-direction: column;
                 .contacts-item{
-                    margin-bottom: 10px
+                    margin-bottom: .625rem
                 }
             }
 
             .payments{
                 border: none;
                 padding: 0;
-                margin-bottom: 20px
+                margin-bottom: 1.25rem
             }
         }
     }
